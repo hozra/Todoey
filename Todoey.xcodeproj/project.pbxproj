@@ -20,7 +20,7 @@
 		2A5C536022700066005635F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5C536222700066005635F0 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		2A5C536522700066005635F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A5C53672270006C005635F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A5C53672270006C005635F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		2A5C536A2270006C005635F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A5C536C2270006C005635F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A981FCE2271B25A00EC2058 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Item.swift; path = ../Item.swift; sourceTree = "<group>"; };
@@ -56,15 +56,23 @@
 		2A5C535F22700066005635F0 /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
+				2A5C53692270006C005635F0 /* LaunchScreen.storyboard */,
 				2A5C536022700066005635F0 /* AppDelegate.swift */,
 				2AC799722271B2F4000A1D02 /* Controllers */,
 				2A981FD02271B27B00EC2058 /* Data Model */,
 				2AC799732271B30D000A1D02 /* Views */,
-				2A5C53672270006C005635F0 /* Assets.xcassets */,
-				2A5C53692270006C005635F0 /* LaunchScreen.storyboard */,
+				2A9695122271B8640001700E /* Supporting Files */,
 				2A5C536C2270006C005635F0 /* Info.plist */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		2A9695122271B8640001700E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A5C53672270006C005635F0 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2A981FD02271B27B00EC2058 /* Data Model */ = {
