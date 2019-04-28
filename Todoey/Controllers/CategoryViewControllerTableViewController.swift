@@ -17,10 +17,6 @@ class CategoryViewControllerTableViewController: UITableViewController {
     
     var categories : Results<Category>?
     
-    let dataFilePath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("Category.plist")
-    
-//    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
